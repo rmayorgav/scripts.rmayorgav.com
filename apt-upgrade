@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Author: Rodrigo Mayorga Vallejos <rmayorgav@gmail.com>
+
+# validate root user
+if [ $(id --user) -ne 0 ]; then
+    echo You are not root!
+    exit 1
+fi
+
+apt update && apt upgrade && apt autoremove
