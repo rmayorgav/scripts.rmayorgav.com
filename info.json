@@ -1,0 +1,4 @@
+{
+  "version": "20230330.1430",
+  "scripts": ["apt-essential", "apt-upgrade"]
+}
