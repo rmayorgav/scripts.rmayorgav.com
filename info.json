@@ -1,4 +1,8 @@
 {
-  "version": "20230330.1430",
-  "scripts": ["apt-essential", "apt-upgrade"]
+  "version": "20230404.1115",
+  "scripts": [
+    "apt-install",
+    "apt-install-personal",
+    "apt-upgrade"
+  ]
 }
