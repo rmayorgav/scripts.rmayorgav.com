@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#Author: Rodrigo Mayorga Vallejos <rmayorgav@gmail.com>
+
+# get updates
+pkg update -y 
+
+# editors
+pkg install -y vim neovim mc nano
+
+# development
+pkg install -y build-essential clang
+pkg install -y automake autoconf
+pkg install -y git cmake gdb 
+
+# Python
+pkg install -y python3 python3-dev python3-venv
+
+# PHP
+pkg install -y php-cli
+
+# NodeJS
+pkg install -y nodejs
+
+# monitors
+pkg install -y htop iftop
+
