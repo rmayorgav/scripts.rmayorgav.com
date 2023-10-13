@@ -29,7 +29,7 @@ apt install -y git cmake gdb
 apt install -y python3 python3-dev python3-venv python3-pip python-is-python3
 
 # PHP
-apt install -y php-cli
+apt install -y php-cli php-curl php-gd php-dompdf php-zip 
 
 # NodeJS
 apt install -y curl
