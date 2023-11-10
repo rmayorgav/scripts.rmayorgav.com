@@ -37,11 +37,6 @@ for opt in $@; do
         "monitors")
             apt install -y htop iftop
             ;;
-        "dotnet")
-            wget https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
-            chmod +x /tmp/dotnet-install.sh
-            /tmp/dotnet-install.sh --version latest
-            ;;
         "nodejs")
             apt install -y curl
 			apt-get update
