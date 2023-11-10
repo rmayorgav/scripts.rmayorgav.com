@@ -8,4 +8,4 @@ if [ $(id --user) -ne 0 ]; then
     exit 1
 fi
 
-apt update && apt upgrade && apt autoremove
+apt update && apt upgrade -y  && apt autoremove -y
