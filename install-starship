@@ -2,7 +2,6 @@
 
 #Author: Rodrigo Mayorga Vallejos <rmayorgav@gmail.com>
 
-
 mkdir -p $HOME/.local/bin
 curl -sS https://starship.rs/install.sh -o $HOME/.install-starship.sh
 sh $HOME/.install-starship.sh -b $HOME/.local/bin
