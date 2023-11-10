@@ -17,7 +17,7 @@ for opt in $@; do
             apt install -y man-db
             ;;
         "gnupg")
-            apt install -y gnupg
+            apt install -y gnupg gnupg2
             ;;
         "editors")
             apt install -y vim neovim mc nano
