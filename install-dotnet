@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Author: Rodrigo Mayorga Vallejos <rmayorgav@gmail.com>
+
 wget https://dot.net/v1/dotnet-install.sh -O $HOME/.dotnet-install.sh
 chmod +x $HOME/.dotnet-install.sh
 $HOME/.dotnet-install.sh --version latest
