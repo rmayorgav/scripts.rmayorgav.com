@@ -8,4 +8,5 @@ if [ $(id -u) -ne 0 ]; then
     exit 1
 fi
 
-apt update && apt upgrade -y  && apt autoremove -y
+apt-get update && apt-get upgrade -y  && apt-get autoremove -y
+
