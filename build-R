@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#Author: Rodrigo Mayorga Vallejos <rmayorgav@gmail.com>
+
+if [ $(id -u) -ne 0 ]; then
+    echo You are not root!
+    exit 1
+fi
+
+apt-get update -y
+apt-get install -y gfortran libreadline-dev libbz2-dev liblzma-dev libpcre2-dev libcurl4-openssl-dev texlive
+
+mkdir -p $HOME/.local
+
+./configure --with-x=no --prefix=$HOME/.local/
